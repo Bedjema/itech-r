@@ -199,8 +199,8 @@
                     schema: {
                         "@context": "https://schema.org",
                         "@type": "SoftwareApplication",
-                        url: "https://www.veed.io",
-                        name: "VEED, ".concat(title),
+                        url: "#",
+                        name: "I-TECH, ".concat(title),
                         description,
                         operatingSystem: "Windows, MacOS, Chrome OS, Linux, iOS, Android",
                         applicationCategory: "MultimediaApplication",
@@ -272,7 +272,7 @@
                 let schema = {
                     "@context": "https://schema.org",
                     "@type": "HowTo",
-                    name: heading || "How to use VEED",
+                    name: heading || "How to use",
                     step: (0, utils_filterBoolean__WEBPACK_IMPORTED_MODULE_3__.g)(null == howToItems ? void 0 : howToItems.map(howTo => howTo.heading && howTo.content ? {
                         "@type": "HowToStep",
                         name: howTo.heading,
@@ -642,7 +642,7 @@
                             children: [(() => {
                                 if (enSlug === constants.ue) return (0, jsx_runtime.jsx)(CallToAction, {
                                     "data-testid": "@titleSection/compressorCTA",
-                                    href: "".concat("https://www.veed.io", "/new?tool=compress"),
+                                    href: "".concat("#", "/new?tool=compress"),
                                     logEvent: () => index_es.px.lpPrimaryCtaClicked({
                                         position: enums.L.TOP
                                     }).promise,
@@ -861,19 +861,7 @@
                     })
                 };
             var im = __webpack_require__(7997);
-            let testimonials = [{
-                    text: "Veed allows for subtitling, editing, effect/text encoding, and many more advanced features that other editors just can't compete with. The free version is wonderful, but the Pro version is beyond perfect.",
-                    name: "Chris Y.",
-                    title: "Content Creator"
-                }, {
-                    text: "I love using VEED as the speech to subtitles transcription is the most accurate I've seen on the market. It has enabled me to edit my videos in just a few minutes and bring my video content to the next level.",
-                    name: "Laura Haleydt",
-                    title: "Brand Marketing Manager, Carlsberg Importers"
-                }, {
-                    text: "It has everything I need in one place such as the progress bar for my 1-minute clips, auto transcriptions for all my video content, and custom fonts for consistency in my visual branding.",
-                    name: "Diana B.",
-                    title: "Social Media Strategist"
-                }],
+            let testimonials = [],
                 DiscoverSection = param => {
                     let {
                         heading,

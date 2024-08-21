@@ -168,7 +168,7 @@
                 clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6277),
                 next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6577),
                 next_image__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-            let assetsUrl = "https://localhost/i-tech",
+            let assetsUrl = "https://bedjema.github.io/itech-r",
                 cloudflareHostnames = [""],
                 join = function() {
                     for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) args[_key] = arguments[_key];
@@ -181,8 +181,8 @@
                         quality = 75
                     } = param, isAbsoluteUrl = src.startsWith("http"), imageUrl = new URL(isAbsoluteUrl ? src : join(assetsUrl, src));
                     if(imageUrl.pathname == "/img/logo.png") {
-                        imageUrl.pathname = "https://localhost/i-tech/img/logo.png";
-                        return ("https://localhost/i-tech/img/logo.png")
+                        imageUrl.pathname = "https://bedjema.github.io/itech-r/img/logo.png";
+                        return ("https://bedjema.github.io/itech-r/img/logo.png")
                     } else {
                     return (!isAbsoluteUrl || cloudflareHostnames.includes(imageUrl.hostname)), imageUrl.toString()
                 }

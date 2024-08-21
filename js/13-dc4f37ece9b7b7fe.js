@@ -181,7 +181,7 @@
             var v_logo = function(e) {
                     return eT.createElement(
                         "img",
-                        {src: "https://localhost/i-tech/img/ic-footer.png",
+                        {src: "https://bedjema.github.io/itech-r/img/ic-footer.png",
                             width : "65px"
                         },
                         null

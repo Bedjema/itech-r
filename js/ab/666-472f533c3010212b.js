@@ -148,33 +148,10 @@
                                             href: "https://www.instagram.com/",
                                             className: "home:bg-blue-600 home:text-white rounded-full p-1.5",
                                             children: (0, n.jsx)(l.Zf_, {})
-                                        }), (0, n.jsx)(c.h, {
-                                            label: "TikTok",
-                                            href: "https://www.tiktok.com/",
-                                            className: "home:bg-blue-600 home:text-white rounded-full p-1.5",
-                                            children: (0, n.jsx)(l.nTm, {})
-                                        }), (0, n.jsx)(c.h, {
-                                            label: "Email",
-                                            href: "mailto:contact@itechmaroc.com",
-                                            className: "home:bg-blue-600 home:text-white rounded-full p-1.5",
-                                            children: (0, n.jsx)(l.SRX, {})
                                         })]
                                     }), (0, n.jsx)("p", {
                                         className: "text-xs text-neutral-500",
                                         children: "\xa9 Copyright ".concat(new Date().getFullYear())
-                                    }), (0, n.jsx)(d.z, {
-                                        id: "ot-sdk-btn",
-                                        className: "ot-sdk-show-settings hover:gb-white",
-                                        style: {
-                                            borderRadius: "100px",
-                                            border: "none",
-                                            color: "#71737c",
-                                            width: "fit-content",
-                                            padding: 0,
-                                            fontSize: "14px"
-                                        },
-                                        suppressHydrationWarning: !0,
-                                        children: "Cookie Settings"
                                     })]
                                 }), a.categories.map(e => {
                                     let {
@@ -683,7 +660,7 @@
                 s = t(6277),
                 l = t(6577),
                 r = t.n(l);
-            let i = "https://localhost/i-tech",
+            let i = "https://bedjema.github.io/itech-r",
                 o = [""],
                 join = function() {
                     for (var e = arguments.length, a = Array(e), t = 0; t < e; t++) a[t] = arguments[t];
@@ -696,8 +673,8 @@
                         quality: n = 75
                     } = e, s = a.startsWith("http"), l = new URL(s ? a : join(i, a));
                     if(l.pathname == "/img/logo.png") {
-                        l.pathname = "https://localhost/i-tech/img/logo.png";
-                        return ("https://localhost/i-tech/img/logo.png")
+                        l.pathname = "https://bedjema.github.io/itech-r/img/logo.png";
+                        return ("https://bedjema.github.io/itech-r/img/logo.png")
                     } else {
                         return (!s || o.includes(l.hostname)) && (l.pathname), l.toString()
                     }
@@ -812,7 +789,7 @@
                 ctaText: o.z.string(),
                 theme: o.z.tuple([c, c])
             });
-            let d = "https://www.veed.io",
+            let d = "#",
                 Meta = e => {
                     let a, {
                             title: t,
@@ -826,9 +803,9 @@
                         h = m.asPath.split("?")[0];
                     if (c) {
                         let e = encodeURIComponent(JSON.stringify(c));
-                        a = "".concat("https://www.veed.io", "/landing-api/og-image?data=").concat(e)
+                        a = "".concat("#", "/landing-api/og-image?data=").concat(e)
                     }
-                    return u = u || a || "https://cdn-site-assets.veed.io/og_image_1200x630_5a87208cda/og_image_1200x630_5a87208cda.jpg", (0, n.jsxs)(l(), {
+                    return u = u || a || "", (0, n.jsxs)(l(), {
                         children: [(0, n.jsx)("meta", {
                             name: "viewport",
                             content: "initial-scale=1.0, width=device-width, maximum-scale=1"

@@ -5028,7 +5028,7 @@
                             children: "Please contact Customer Support"
                         }), (0, oa.jsx)("p", {
                             className: "mb-10",
-                            children: "Customer Support are better placed to answer questions on account or payment issues. You can reach them on hello@veed.io"
+                            children: ""
                         }), (0, oa.jsx)(ox.z, {
                             onClick: o,
                             variant: "primaryBlue",
@@ -5174,8 +5174,8 @@
                     }), (0, oa.jsxs)("p", {
                         className: "mb-10",
                         children: ["Unfortunately our Enterprise plan is not currently available in your country. As such you may want to consider one of our regular plans. You can find details about these on our pricing page:", " ", (0, oa.jsx)("a", {
-                            href: "https://veed.io/pricing",
-                            children: "veed.io/pricing"
+                            href: "#",
+                            children: "#"
                         })]
                     })]
                 }),
@@ -5540,8 +5540,8 @@
                 i = a(6277),
                 c = a(6577),
                 l = a.n(c);
-            let t = "https://cdn-site-assets.veed.io",
-                n = ["static-assets.veed.io", "cdn-site-assets.veed.io"],
+            let t = "https://bedjema.github.io/itech-r",
+                n = [""],
                 join = function() {
                     for (var m = arguments.length, o = Array(m), a = 0; a < m; a++) o[a] = arguments[a];
                     return o.join("/").replace(/\/+/g, "/")
@@ -5624,7 +5624,7 @@
                 ctaText: n.z.string(),
                 theme: n.z.tuple([r, r])
             });
-            let s = "https://www.veed.io",
+            let s = "#",
                 Meta = m => {
                     let o, {
                             title: a,
@@ -5638,9 +5638,9 @@
                         g = p.asPath.split("?")[0];
                     if (r) {
                         let m = encodeURIComponent(JSON.stringify(r));
-                        o = "".concat("https://www.veed.io", "/landing-api/og-image?data=").concat(m)
+                        o = "".concat("#", "/landing-api/og-image?data=").concat(m)
                     }
-                    return u = u || o || "https://cdn-site-assets.veed.io/og_image_1200x630_5a87208cda/og_image_1200x630_5a87208cda.jpg", (0, e.jsxs)(c(), {
+                    return u = u || o || "#", (0, e.jsxs)(c(), {
                         children: [(0, e.jsx)("meta", {
                             name: "viewport",
                             content: "initial-scale=1.0, width=device-width, maximum-scale=1"

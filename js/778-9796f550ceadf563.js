@@ -11,7 +11,7 @@
       var l = n(2322),
         r = n(2784),
         i = n(8108)
-      let a = 'https://localhost/i-tech',
+      let a = 'https://bedjema.github.io/itech-r',
         LazyVideo = e => {
           let {
               autoPlay: t = !0,

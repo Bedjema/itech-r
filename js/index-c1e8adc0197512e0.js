@@ -92,7 +92,7 @@
             t.Z = function(e) {
                 return l.createElement(
                     "img",
-                    {src: "https://localhost/i-tech/img/logo.png",
+                    {src: "https://bedjema.github.io/itech-r/img/logo.png",
                         width : "110px"
                     },
                     null
@@ -1493,7 +1493,7 @@
                         children: [(0, s.jsx)(j.h_, {
                             title: r.meta.metaTitle,
                             description: r.meta.metaDescription,
-                            ogImageUrl: "https://cdn-site-assets.veed.io/Homepage_OG_Image_Rebrand_ad03f74caa/Homepage_OG_Image_Rebrand_ad03f74caa.png",
+                            ogImageUrl: "#",
                             themeColor: "#ECEEEE"
                         }), (0, s.jsx)(HeroSection, {
                             section: r.heroSection,
@@ -1536,7 +1536,7 @@
                 l = a(6277),
                 s = a(6577),
                 i = a.n(s);
-            let r = "https://localhost/i-tech",
+            let r = "https://bedjema.github.io/itech-r",
                 c = [""],
                 join = function() {
                     for (var e = arguments.length, t = Array(e), a = 0; a < e; a++) t[a] = arguments[a];
@@ -1622,7 +1622,7 @@
                 ctaText: c.z.string(),
                 theme: c.z.tuple([o, o])
             });
-            let d = "https://www.veed.io",
+            let d = "#",
                 Meta = e => {
                     let t, {
                             title: a,
@@ -1636,9 +1636,9 @@
                         g = u.asPath.split("?")[0];
                     if (o) {
                         let e = encodeURIComponent(JSON.stringify(o));
-                        t = "".concat("https://www.veed.io", "/landing-api/og-image?data=").concat(e)
+                        t = "".concat("#", "/landing-api/og-image?data=").concat(e)
                     }
-                    return m = m || t || "https://cdn-site-assets.veed.io/og_image_1200x630_5a87208cda/og_image_1200x630_5a87208cda.jpg", (0, n.jsxs)(s(), {
+                    return m = m || t || "#", (0, n.jsxs)(s(), {
                         children: [(0, n.jsx)("meta", {
                             name: "viewport",
                             content: "initial-scale=1.0, width=device-width, maximum-scale=1"
