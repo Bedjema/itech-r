@@ -168,7 +168,7 @@
                 clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6277),
                 next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6577),
                 next_image__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-            let assetsUrl = "https://localhost/i-tech",
+            let assetsUrl = "https://bedjema.github.io/itech-r",
                 cloudflareHostnames = [""],
                 join = function() {
                     for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) args[_key] = arguments[_key];

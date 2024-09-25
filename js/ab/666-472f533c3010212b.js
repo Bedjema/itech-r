@@ -683,7 +683,7 @@
                 s = t(6277),
                 l = t(6577),
                 r = t.n(l);
-            let i = "https://localhost/i-tech",
+            let i = "https://bedjema.github.io/itech-r",
                 o = [""],
                 join = function() {
                     for (var e = arguments.length, a = Array(e), t = 0; t < e; t++) a[t] = arguments[t];
