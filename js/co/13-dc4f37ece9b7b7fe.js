@@ -76,7 +76,7 @@
                         "@type": "ListItem",
                         position: t + 1,
                         name: e.title,
-                        item: "#".concat(e.link)
+                        item: "https://www.veed.io".concat(e.link)
                     }))
                 };
                 return (0, l.jsx)(s.l, {
@@ -330,19 +330,29 @@
                                             className: "flex justify-start gap-[11px]",
                                             children: [(0, eG.jsx)(ez.h, {
                                                 label: "Twitter",
-                                                href: "https://twitter.com/",
+                                                href: "https://twitter.com/veedstudio",
                                                 className: "border-enterprise-gray hover:text-enterprise-black rounded-full border-[1px] border-solid from-[#B6FF60] to-[#ff6877] p-2 hover:bg-gradient-to-r",
                                                 children: (0, eG.jsx)(eD.cy8, {})
                                             }), (0, eG.jsx)(ez.h, {
                                                 label: "YouTube",
-                                                href: "https://www.youtube.com/",
+                                                href: "https://www.youtube.com/veedstudio",
                                                 className: "border-enterprise-gray hover:text-enterprise-black rounded-full border-[1px] border-solid from-[#B6FF60] to-[#ff6877] p-2 hover:bg-gradient-to-r",
                                                 children: (0, eG.jsx)(eU.V2E, {})
                                             }), (0, eG.jsx)(ez.h, {
                                                 label: "Twitter",
-                                                href: "https://www.instagram.com/",
+                                                href: "https://www.instagram.com/veedstudio/",
                                                 className: "border-enterprise-gray hover:text-enterprise-black rounded-full border-[1px] border-solid from-[#B6FF60] to-[#ff6877] p-2 hover:bg-gradient-to-r",
                                                 children: (0, eG.jsx)(eD.Nrw, {})
+                                            }), (0, eG.jsx)(ez.h, {
+                                                label: "TikTok",
+                                                href: "https://www.tiktok.com/@veedstudio",
+                                                className: "border-enterprise-gray hover:text-enterprise-black rounded-full border-[1px] border-solid from-[#B6FF60] to-[#ff6877] p-2 hover:bg-gradient-to-r",
+                                                children: (0, eG.jsx)(eU.nTm, {})
+                                            }), (0, eG.jsx)(ez.h, {
+                                                label: "Email",
+                                                href: "mailto:hello@veed.io",
+                                                className: "border-enterprise-gray hover:text-enterprise-black rounded-full border-[1px] border-solid from-[#B6FF60] to-[#ff6877] p-2 hover:bg-gradient-to-r",
+                                                children: (0, eG.jsx)(eU.SRX, {})
                                             })]
                                         })]
                                     }), (0, eG.jsxs)("div", {

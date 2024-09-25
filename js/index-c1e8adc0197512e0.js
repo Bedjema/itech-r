@@ -375,7 +375,7 @@
                                 }), (0, s.jsxs)("div", {
                                     className: "w-full",
                                     children: [(0, s.jsx)(p.E.p, {
-                                        className: "text-rebrand-darkGray  mb-4 text-lg leading-[22px] tracking-[-0.27px] md:mb-6 md:text-[18px] md:leading-[24px] md:tracking-[-0.72px] lg:block lg:text-[24px] lg:leading-[26px] lg:tracking-[-0.36px]",
+                                        className: "text-rebrand-darkGray  mb-4 text-lg leading-[22px] tracking-[-0.27px] md:mb-6 md:text-[18px] md:leading-[24px] md:tracking-[-0.72px] lg:block lg:text-[13spx] lg:leading-[26px] lg:tracking-[-0.36px]",
                                         animate: {
                                             opacity: l || a !== m ? 1 : 0
                                         },
@@ -524,14 +524,6 @@
                                         children: [(0, s.jsx)("p", {
                                             className: (0, d.cn)(c.oW, "text-left text-base"),
                                             children: e.title
-                                        }), (0, s.jsx)("div", {
-                                            className: "flex items-center overflow-hidden rounded-2xl lg:rounded-3xl",
-                                            children: (0, s.jsx)(f.w, {
-                                                media: e.mobileVideo,
-                                                mediaThumbnail: e.mobileVideoThumbnail,
-                                                className: "rounded-xl",
-                                                controls: !1
-                                            })
                                         }), (0, s.jsx)(o.Z, {
                                             cta: {
                                                 text: l,
@@ -561,8 +553,7 @@
                                     className: "flex w-full items-center overflow-hidden rounded-xl bg-white md:rounded-2xl lg:rounded-3xl",
                                     children: (0, s.jsx)(N.M, {
                                         children: i && (0, s.jsx)(f.w, {
-                                            media: i.video,
-                                            mediaThumbnail: i.videoThumbnail,
+                                            media: i.desc,
                                             className: "rounded-xl lg:h-auto"
                                         })
                                     })
@@ -1493,7 +1484,7 @@
                         children: [(0, s.jsx)(j.h_, {
                             title: r.meta.metaTitle,
                             description: r.meta.metaDescription,
-                            ogImageUrl: "#",
+                            ogImageUrl: "https://cdn-site-assets.veed.io/Homepage_OG_Image_Rebrand_ad03f74caa/Homepage_OG_Image_Rebrand_ad03f74caa.png",
                             themeColor: "#ECEEEE"
                         }), (0, s.jsx)(HeroSection, {
                             section: r.heroSection,
@@ -1536,7 +1527,7 @@
                 l = a(6277),
                 s = a(6577),
                 i = a.n(s);
-            let r = "https://bedjema.github.io/itech-r",
+            let r = "https://localhost/i-tech",
                 c = [""],
                 join = function() {
                     for (var e = arguments.length, t = Array(e), a = 0; a < e; a++) t[a] = arguments[a];
@@ -1622,7 +1613,7 @@
                 ctaText: c.z.string(),
                 theme: c.z.tuple([o, o])
             });
-            let d = "#",
+            let d = "https://www.veed.io",
                 Meta = e => {
                     let t, {
                             title: a,
@@ -1636,9 +1627,9 @@
                         g = u.asPath.split("?")[0];
                     if (o) {
                         let e = encodeURIComponent(JSON.stringify(o));
-                        t = "".concat("#", "/landing-api/og-image?data=").concat(e)
+                        t = "".concat("https://www.veed.io", "/landing-api/og-image?data=").concat(e)
                     }
-                    return m = m || t || "#", (0, n.jsxs)(s(), {
+                    return m = m || t || "https://cdn-site-assets.veed.io/og_image_1200x630_5a87208cda/og_image_1200x630_5a87208cda.jpg", (0, n.jsxs)(s(), {
                         children: [(0, n.jsx)("meta", {
                             name: "viewport",
                             content: "initial-scale=1.0, width=device-width, maximum-scale=1"

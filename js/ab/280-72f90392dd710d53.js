@@ -650,6 +650,10 @@
                 l.jsx)(c.X, {
                     heading: t
                 }), (0,
+                    l.jsx)("p", {
+                        className: "leading-tight md:max-w-[750px] text-center mt-4",
+                        children: "Notre expérience, qui va de l’hébergement au développement système en micro-informatique en passant par l’assistance, la maintenance, constitue le socle technique de la société. Notre complémentarité et notre connaissance approfondie du marché nous a tout naturellement amenés à l’idée de proposer aux entreprises une nouvelle approche de l’informatique. L’infogérance et le développement d’application sont les métiers initiaux d’ITECH DATA SOLUTIONS dont ses fondateurs capitalisent plus de 10 ans d’expérience dans ces domaines."
+                    }), (0,
                 l.jsx)("div", {
                     className: "flex gap-2 overflow-x-scroll pt-10 md:gap-2 md:pt-12 lg:gap-4 lg:pt-20",
                     children: s.map((e,t)=>{

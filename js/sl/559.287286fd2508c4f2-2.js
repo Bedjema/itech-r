@@ -993,10 +993,7 @@
                             })
                         }), (0, jsx_runtime.jsxs)("div", {
                             className: "mx-auto max-w-screen-2xl px-4",
-                            children: [(0, jsx_runtime.jsx)(ResourcesSection, {
-                                section: pageData.additionalContent.resourcesSection,
-                                resources: pageData.additionalContent.resources
-                            }), (0, jsx_runtime.jsx)(UVPSection.b, {
+                            children: [(0, jsx_runtime.jsx)(UVPSection.b, {
                                 section: pageData.UVPSection
                             })]
                         })]

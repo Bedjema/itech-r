@@ -11,7 +11,7 @@
       var l = n(2322),
         r = n(2784),
         i = n(8108)
-      let a = 'https://bedjema.github.io/itech-r',
+      let a = 'https://localhost/i-tech',
         LazyVideo = e => {
           let {
               autoPlay: t = !0,
@@ -190,7 +190,7 @@
             (I = s.oW)),
             'xl' === p &&
               ((C = 'py-6 px-20 md:px-20 md:py-12 lg:px-24 lg:py-14'),
-              (I = 'text-[18px] md:text-[20px] lg:text-[24px]')),
+              (I = 'text-[18px] md:text-[20px] lg:text-[13px]')),
             'primary' === b
               ? (t =
                   'font-medium leading-[22px] tracking-[-0.27px] h-[88px] px-0 flex items-center justify-center w-full py-4 md:py-8 lg:py-10 md:w-fit md:min-w-[200px] lg:h-[120px] lg:min-w-[266px] lg:leading-[28px] lg:tracking-[-0.36px] lg:p-0 lg:px-10 lg:min-w-[266px]')
